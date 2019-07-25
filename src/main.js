@@ -7,6 +7,9 @@ import $ from 'jquery'
 import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './assets/icon/iconfont.css'
+import Echarts from 'echarts'
+Vue.prototype.echarts = Echarts
+Vue.use(Echarts)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

@@ -57,8 +57,8 @@ export default {
 }
 .maincontant{
    position:fixed;
+   margin-left:160px; 
    top:70px;
-   left:220px;
    width:100%;
    height:100%;
    /* background-color:lightblue; */
